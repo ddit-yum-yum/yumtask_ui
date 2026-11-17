@@ -1,7 +1,7 @@
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter } from 'react-router'
 import { HomePage } from './HomePage'
-import { zeeneeRoutes } from "@/members/zeenee/routes";
-import { zennyRoutes } from "@/members/zenny/routes";
+import { zeeneeRoutes } from '@/members/zeenee/routes'
+import { zennyRoutes } from '@/members/zenny/routes'
 
 export const router = createBrowserRouter([
   { path: '/', element: <HomePage /> },
